@@ -1,4 +1,8 @@
- hr{
+body{
+      overflow-x:hidden;
+}
+hr{
+  
       border-top:1px solid rgb(165, 164, 164) !important;
  }
 .logo-img{
