@@ -286,6 +286,7 @@ input[type = "password"]{
      padding: 0px;
      margin: 0px;
 }
+ 
 .form-link-box{
     text-decoration: none !important;
     color: rgb(99, 99, 99);
@@ -301,5 +302,16 @@ input[type = "password"]{
     margin-left: 20%;
     padding-top: 30%;
 }
- 
+.form_inside input::placeholder{
+    font-size : 15px;
+    color : #000;
+}
+
+.form_inside input{
+    background : rgba(252, 252, 252, 0.274);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
 
